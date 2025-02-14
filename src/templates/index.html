@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dockerizing a Python Web Application</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #87CEEB, #faa300);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card {
+            background: #87CEEB;
+            padding: 2rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 500px;
+        }
+        .card h1 {
+            font-size: 1.8rem;
+            color: #333;
+            margin: 0.5rem 0;
+        }
+        .card h1:nth-child(2) {
+            font-size: 1.2rem;
+            color: #FF7F50;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2> FLASK + DOCKER + K8S </h2>
+        <p> response-host : {{host_name}} // ip : {{host_ip}} </p>
+    </div>
+</body>
+</html>
